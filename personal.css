@@ -1,0 +1,41 @@
+body {
+  background-color: Oldlace;
+}
+
+.title {
+  color: SandyBrown;  
+  font-size: 48px;
+}
+
+.favColor {
+  
+  color: OliveDrab;
+}
+
+h4 {
+  color: Tan;
+}
+
+form {
+  font-family: Arial;
+}
+
+img {
+  max-width: 400px;
+}
+
+p  {
+  color: darkslategray;
+}
+
+#green {
+   color: OliveDrab;
+}
+
+#blue {
+   color: cornflowerblue;
+}
+
+#red {
+   color: tomato;
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital@0;1&family=Yeseva+One&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Yeseva One', sans-serif;
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 12px;
+  background-color: ghostwhite;
+}
+
+h1, h3 {
+  color: #36c069;
+}
+
+a {
+ 
+  color: #1d212a;
+}
+
+p {
+  font-family: 'inter tight', san-serif;
+  color: #1d212a;
+}
+
+.section {
+  color: orange;
+  
+}
+
+footer {
+  text-align: center;
+}
+
+img {
+  width: 100%
+
+}

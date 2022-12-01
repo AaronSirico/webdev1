@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
+
+body {
+    background-color: slategray;
+    max-width: 45%;
+    margin: 0 auto;
+    
+    font-family: Playfair;
+}
+
+h1 {
+    color: oldlace;
+    font-size: 4em;
+  
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+
+width: 5em;
+height: 5em;
+background-color: seagreen;
+text-align: center;
+margin: 20px 80px 20px 80px;
+flex-wrap: wrap;
+}
+
+.grid {
+    display: flex;
+
+}
+
+p {
+    color: ghostwhite;
+    font-family: Arial;
+    font-size: 1em;
+    
+}
+
+a {
+    text-decoration: none;
+    color: ghostwhite;
+    
+}

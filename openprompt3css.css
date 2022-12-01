@@ -1,0 +1,60 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  text-align: center;
+  background-color:thistle;
+  
+}
+
+
+ h1, h2, h3{
+  color: slategrey;
+  text-shadow: 2px 2px 10px;
+}
+
+ol {
+display: table;
+margin: 0 auto;
+  color: snow;
+}
+
+ul {
+display: table;
+margin: 0 auto;
+  color: snow;
+  text-shadow: 2px 2px 10px;
+}
+
+.flip {
+  position: absolute;
+  right: 0;
+}
+
+.hard {
+  position: absolute;
+  left: 20px;
+  bottom: 80px;
+}
+
+.creature {
+  max-width: 200px;
+  
+}
+
+.baker {
+  max-width: 200px;
+}
+
+.real {
+  max-width: 200px;
+  height: 260px;
+}
+
+.floater {
+  position: fixed;
+  z-index:4;
+  right:10px;
+  bottom: 10px;
+}

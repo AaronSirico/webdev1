@@ -1,0 +1,23 @@
+body {
+  background-color: OldLace;
+}
+h1 {
+  color: darkslategrey;
+  font-size: 60px;
+}
+
+h2 {
+  color: darkslategrey;
+}
+
+a {
+  text-shadow: 2px 2px red;
+}
+
+p {
+  font-family: arial;
+}
+
+img {
+  max-width:700px;
+}

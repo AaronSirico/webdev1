@@ -1,0 +1,184 @@
+:root {
+  
+  --delay: 0.5s;
+}
+
+* {
+    color: #0d0d0d;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  background-color: midnightblue;
+}
+
+.animationBox {
+  position: absolute;
+  left: 250px;
+}
+
+.animationCircle {
+  position: absolute;
+  left: 10px;
+}
+
+.circle {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  background-color: mintcream;
+  animation: appear 5s infinite;
+  
+}
+
+.circle1 {
+  position: fixed;
+  width: 90px;
+  height: 90px;
+  border-radius: 100px;
+  animation: shrink 5s infinite;
+}
+
+
+.box {
+  position: absolute;
+  width:20px;
+  height:200px;
+  background-color: white;
+  left: 250px;
+  top: 150px;
+ animation: appear 3s forwards;
+ animation: growH 5s forwards;
+  
+}
+
+.box1 {
+  
+  position: absolute;
+  width:200px;
+  height:20px;
+  background-color: #fff5bf;
+  left: 250px;
+  top: 150px;
+  animation: appear 3s forwards;
+  animation: growW 5s forwards;
+  
+}
+
+.box2 {
+  position: absolute;
+  width:20px;
+  height:200px;
+  background-color: #e5e5e5;
+  left: 240px;
+  top: 140px;
+  animation: appear 5s forwards;
+  animation: growH 7s forwards;
+ 
+}
+
+.box3 {
+  
+  position: absolute;
+  width:200px;
+  height:20px;
+  background-color: #ffe973;
+  left: 240px;
+  top: 140px;
+  animation: appear 5s forwards;
+  animation: growW 7s forwards;
+  
+}
+
+.box4 {
+  
+  position: absolute;
+  width:200px;
+  height:20px;
+  background-color: #ffd700;
+  left: 230px;
+  top: 130px;
+  animation: appear 7s forwards;
+   animation: growW 9s forwards;
+  
+  
+}
+
+.box5 {
+  
+  position: absolute;
+  width:20px;
+  height:200px;
+  background-color: #a9a9a9;
+  left: 230px;
+  top: 130px;
+  animation: appear 7s forwards;
+  animation: growH 9s forwards;
+  
+  
+}
+
+
+@keyframes appear {
+  
+ from {
+    opacity: 0;
+
+  }
+  
+ to {   
+     
+      opacity: 100;
+  
+     
+  }
+
+  
+}
+
+@keyframes growH {
+  
+  0% {
+    
+    height: 0px;
+    
+  }
+  
+  100% {   
+     
+      height: 200px;
+     
+  }
+
+  
+}
+
+@keyframes growW {
+  
+  0% {
+    
+    width: 0px;
+    
+  }
+  
+  100% {   
+     
+      width: 200px;
+     
+  }
+
+  
+}
+
+@keyframes shrink {
+  
+  from {
+    width: 0px;
+    height: 0px;
+  }
+  
+  to {
+    width: 100px;
+    height: 100px;
+  }
+}
