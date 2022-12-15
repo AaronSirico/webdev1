@@ -29,6 +29,15 @@ margin: 20px 80px 20px 80px;
 flex-wrap: wrap;
 }
 
+.box1 {
+    width: 5em;
+height: 5em;
+    background-color: crimson;
+    text-align: center;
+margin: 20px 80px 20px 80px;
+flex-wrap: wrap;
+}
+
 .grid {
     display: flex;
 
